@@ -1,15 +1,13 @@
 # Naive Bayes Classifier
 Naive Bayes classification model is a type of machine learning algorithm that uses the Bayes’ theorem to predict the class of a given data point based on the features and the prior probabilities of the classes. 
-
 It is called naive because it assumes that the features are independent of each other, which is often not true in real-world situations. 
 However, naive Bayes classifiers are simple, fast, and effective for many classification tasks, especially for text and document analysis. 
 
 Some examples of naive Bayes classifiers are:
-
 - ### Gaussian naive Bayes:
   It assumes that the features follow a normal distribution and calculates the likelihood of each feature using the mean and standard deviation of the feature values for each class.
 
-. ### Multinomial naive Bayes:
+- ### Multinomial naive Bayes:
   It assumes that the features are discrete counts and calculates the likelihood of each feature using the frequency of the feature values for each class. It is often used for text classification with bag-of-words or tf-idf features.
 
 ## Implementation
